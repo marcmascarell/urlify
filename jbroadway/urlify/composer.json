@@ -1,0 +1,23 @@
+{
+    "name": "jbroadway/urlify",
+    "description": "A port of Django urlify to PHP adatped to Laravel4",
+    "authors": [
+        {
+            "name": "Marc Mascarell",
+            "email": "marcmascarell@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Jbroadway\\Urlify": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
