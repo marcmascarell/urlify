@@ -27,7 +27,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Jbroadway\\Urlify": "src/"
+            "Mascame\\Urlify": "src/"
         }
     },
     "minimum-stability": "dev"
