@@ -1,5 +1,5 @@
 {
-    "name": "marcmascarell/urlify",
+    "name": "mascame/urlify",
     "type": "library",
     "description": "Port to Laravel4 of jbroadway's PHP port of URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
     "homepage": "https://github.com/marcmascarell/urlify",

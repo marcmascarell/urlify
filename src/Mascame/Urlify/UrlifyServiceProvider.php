@@ -1,4 +1,4 @@
-<?php namespace Jbroadway\Urlify;
+<?php namespace Mascame\Urlify;
 
 use Illuminate\Support\ServiceProvider;
 use Jbroadway\URLify;

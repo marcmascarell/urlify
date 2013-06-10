@@ -1,4 +1,4 @@
-<?php namespace Jbroadway;
+<?php namespace Mascame;
 
 /**
  * A PHP port of URLify.js from the Django project
