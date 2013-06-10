@@ -2,13 +2,20 @@
     "name": "jbroadway/urlify",
     "type": "library",
     "description": "Port to Laravel4 of jbroadway's PHP port of URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
-    "homepage": "https://github.com/jbroadway/urlify",
+    "homepage": "https://github.com/marcmascarell/urlify",
     "keywords": ["laravel","urlify","transliterate","translit","transliteration","url","encode","slug","link","iconv"],
     "license": "MIT",
     "authors": [
         {
+            "name": "Johnny Broadway",
+            "email": "johnny@johnnybroadway.com",
+            "homepage": "http://www.johnnybroadway.com/",
+            "role": "Main Developer"
+        },
+        {
             "name": "Marc Mascarell",
-            "email": "marcmascarell@gmail.com"
+            "email": "marcmascarell@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
