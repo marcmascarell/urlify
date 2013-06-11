@@ -19,7 +19,7 @@ class UrlifyServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('jbroadway/urlify');
+		$this->package('mascame/urlify');
 
         include 'URLify.php';
 	}
