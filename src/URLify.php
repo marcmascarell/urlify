@@ -134,7 +134,7 @@ class URLify {
 			$m = self::$maps[$language];
 			unset(self::$maps[$language]);
 			self::$maps[$language] = $m;
-			
+
 			/* Reset static vars */
 			self::$language = $language;
 			self::$map = array();
@@ -176,7 +176,7 @@ class URLify {
 
 	/**
 	 * Transliterates characters to their ASCII equivalents.
-     * $language specifies a priority for a specific language. 
+     * $language specifies a priority for a specific language.
      * The latter is useful if languages have different rules for the same character.
 	 */
 	public static function downcode ($text, $language = "") {
@@ -206,7 +206,7 @@ class URLify {
 		$text = preg_replace ('/[^-\w\s]/', '', $text);		// remove unneeded chars
 		$text = preg_replace ('/^\s+|\s+$/', '', $text);	// trim leading/trailing spaces
 		$text = preg_replace ('/[-\s]+/', '-', $text);		// convert spaces to hyphens
-		$text = strtolower ($text);							// convert to lowercase						
+		$text = strtolower ($text);							// convert to lowercase
 		return trim (substr ($text, 0, $length), '-');	// trim to first $length chars
 	}
 

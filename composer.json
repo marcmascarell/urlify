@@ -19,16 +19,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "4.*"
+        "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
-        "psr-0": {
-            "Mascame\\Urlify": "src/"
+        "psr-4": {
+            "Mascame\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
