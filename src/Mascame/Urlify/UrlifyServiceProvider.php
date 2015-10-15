@@ -21,7 +21,7 @@ class UrlifyServiceProvider extends ServiceProvider {
 	{
 		$this->package('mascame/urlify');
 
-        include 'URLify.php';
+        include_once 'URLify.php';
 	}
 
 	/**
